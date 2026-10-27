@@ -1,0 +1,21 @@
+package in.conditionals.loops;
+
+public class FibonacciSeries {
+    public static void main(String[] args) {
+
+        int n = 10;
+        int first = 0;
+        int second = 1;
+        while(n != 0) {
+            System.out.println(first+"  ");
+            int next = first + second;
+            int temp = first;
+            first = second;
+            second= next;
+           n--;
+        }
+            System.out.println();
+
+
+    }
+}

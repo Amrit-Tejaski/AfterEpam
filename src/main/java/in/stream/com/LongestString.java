@@ -6,7 +6,7 @@ import java.util.Set;
 public class LongestString {
     public static int lengthOfLongestSubstring(String s) {
 
-        if (s == null || s.length() == 0) {
+        if (s == null || s.isEmpty()) {
             return 0;
         }
         int left = 0;

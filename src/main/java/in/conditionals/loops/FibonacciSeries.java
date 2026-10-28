@@ -9,7 +9,6 @@ public class FibonacciSeries {
         while(n != 0) {
             System.out.println(first+"  ");
             int next = first + second;
-            int temp = first;
             first = second;
             second= next;
            n--;
